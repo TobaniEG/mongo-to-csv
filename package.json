@@ -1,0 +1,19 @@
+{
+  "name": "mongo-to-csv",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "simple js script to convert mongodb data to csv",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "Tobani Esan-George",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "json-2-csv": "^5.0.1",
+    "mongoose": "^8.1.0"
+  }
+}
